@@ -1,0 +1,12 @@
+node_modules
+dist
+# Secrets: only .env.example is committed
+.env
+.env.*
+!.env.example
+# Personal notes kept out of the public repo
+private/
+.claude/
+*.log
+.DS_Store
+Thumbs.db
